@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background: #eef2f7;
+    color: #333;
 }
 
 /* ======CV CONTAINER===== */
@@ -13,13 +14,15 @@ body {
     max-width: 95%;
     margin: 30px auto;
     padding: 40px;
-    background-color: #fff;
+    background-color: #ffffff;
+    overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
  
 /* ======CV HEADER===== */
 
 .cv-header {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
     border-bottom: 2px solid #ccc;
     text-align: center;
     margin-bottom: 25px;
